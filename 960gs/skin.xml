@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin id="960gs" name="960gs" version="1.0" provider-name="AndyJarrett" lastModified="2011-02-16">
+	<description><![CDATA[
+		This is not a theme but a template using the <a href="http://960.gs" target="_blank">960.gs</a> css framework.
+		I have opened up the project via <a href="">Github</a> so you can fork and contribute code ]]></description>
+	<url></url>
+	<author>AndyJarrett</author>
+	<authorUrl>http://www.andyjarrett.co.uk/blog</authorUrl>
+	<designAuthor>Andy Jarrett</designAuthor>
+	<designAuthorUrl>http://www.andyjarrett.co.uk</designAuthorUrl>
+	<thumbnail>assets/img/960gs Mango Blog template_thumb.png</thumbnail>
+	<preview>assets/img/960gs Mango Blog template_thumb.png</preview>
+	<requiresVersion match="greaterOrEqual">1.4</requiresVersion>
+	<adminEditorCss>assets/css/adminEditor.css</adminEditorCss>
+	<license>Creative Commons Attribution-ShareAlike 2.5</license>
+	<pageTemplates>
+	</pageTemplates>
+	<adminPageTemplates>
+		<template id="login" file="login.cfm" />
+	</adminPageTemplates>
+	<podLocations>
+		<location id="sidebar" name="General sidebar">
+			<!-- template pods defined in the skin -->
+			<pod id="blog-description">Blog Description</pod>
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+		<location id="sidebar-page" name="Page Sidebar">
+			<pod id="page-menu">Page Navigation</pod>
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+		<location id="sidebar-archives" name="Archives Sidebar">
+			<pod id="posts">Recent Entries</pod>
+			<pod id="categories">Categories</pod>
+			<pod id="search">Search</pod>
+			<pod id="category-cloud">Tag Cloud</pod>
+			<pod id="monthly-archives">Archives (monthly)</pod>
+			<pod id="links-by-category">Links by category</pod>
+		</location>
+	</podLocations>
+</skin>

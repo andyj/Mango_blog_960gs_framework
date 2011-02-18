@@ -1,0 +1,68 @@
+/* Tags */
+a {
+    color: #666666;
+}
+
+form label {
+    display: block;
+}
+
+/*Navgation*/
+
+ul#nav {
+    margin: 0 0 20px 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav a {
+    padding: 3px 10px;
+}
+
+#nav a:link, #nav a:visited {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: #000;
+    background-color: #CCC;
+    text-decoration: none;
+}
+
+/* Sidebar*/
+ul.sidebar_list > li {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+ul.sidebar_list > li h2{
+	background-color: #666666;
+	color: white;
+	font-size:16px;
+} 
+
+#footer {
+    margin: 30px 0 0 0;
+}
+
+#footer_links{
+	background-color: #CCC;
+	border-top:3px solid #666666;
+	padding:50px 0px;
+}
+
+#footer_links ul li{ list-style: none; margin: 0; padding: 0;}
+
+.error {
+    color: red;
+}
